@@ -1,0 +1,61 @@
+.stages__item {
+    position: relative;
+
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.46vw;
+    font-weight: 500;
+    line-height: 120%;
+    color: var(--color-content-text);
+
+    background-image: url("../../../images/paper.jpg");
+
+display: flex;
+    background-color: #3057A2;
+
+    padding: 1.46vw;
+
+}
+
+.stages__item:nth-child(1) {
+
+    grid-area: a;
+}
+
+.stages__item:nth-child(2) {
+
+    grid-area: b;
+}
+
+.stages__item:nth-child(3) {
+
+    grid-area: c;
+}
+.stages__item:nth-child(4) {
+
+    grid-area: d;
+}
+
+.stages__item:nth-child(5) {
+
+    grid-area: e;
+}
+
+.stages__item:nth-child(6) {
+
+    grid-area: f;
+}
+
+.stages__item:nth-child(7) {
+
+    grid-area: g;
+    padding-right: 22vw;
+}
+
+
+@media screen and (max-width: 375px) {
+    .stages__item {
+        padding: 0 5.33vw 7.47vw 5.33vw;
+        font-size: 4.80vw;
+        margin: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.event {
+
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5.27vw 14.64vw 3.44vw;
+}
+
+@media screen and (max-width: 375px) {
+        .event {
+                flex-direction: column;
+                margin: 0 5.33vw 14.64vw 5.33vw;
+
+        }
+}

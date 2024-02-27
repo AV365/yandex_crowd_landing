@@ -1,0 +1,12 @@
+.event__pic {
+    width: 38.58vw;
+    height: 41.22vw;
+}
+
+@media screen and (max-width: 375px) {
+    .event__pic  {
+        width: 95vw;
+        height: 99.73vw;
+        margin: 6.40vw 0 6.40vw 0;
+    }
+}

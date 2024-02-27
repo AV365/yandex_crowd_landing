@@ -1,0 +1,7 @@
+.members__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 0 4.39vw 0;
+    padding: 0;
+}

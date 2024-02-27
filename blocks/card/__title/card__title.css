@@ -1,0 +1,21 @@
+.card__title {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 120%;
+
+    color: #151515;
+
+    text-align: center;
+
+    margin: 2.05vw 0 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .card__title {
+
+        font-size: 6.40vw;
+        margin: 7.47vw 0 2.13vw 0;
+    }
+}

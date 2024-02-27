@@ -1,0 +1,8 @@
+.hero__title_line3 {
+    padding-left: 6.59vw;
+}
+
+@media screen and (max-width: 375px) {
+    .hero__title_line3 {
+        padding-left: 16.80vw;
+    }

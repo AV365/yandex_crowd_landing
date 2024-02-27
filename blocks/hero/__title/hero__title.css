@@ -1,0 +1,21 @@
+.hero__title {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 4.39vw;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: var(--color-content-text);
+    width: 42vw;
+
+    margin-top: 4.54vw;
+    margin-bottom: 1.76vw;
+}
+
+@media screen and (max-width: 375px) {
+    .hero__title {
+        font-size: 9.60vw;
+        width:100%;
+
+        margin-top: 10.67vw;
+        margin-bottom: 6.40vw;
+    }

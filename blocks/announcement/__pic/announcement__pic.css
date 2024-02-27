@@ -1,0 +1,17 @@
+.announcement__pic {
+    position: absolute;
+    width: 28.84vw;
+    height: 18.30vw;
+    top:0;
+    right:0;
+}
+
+@media screen and (max-width: 375px) {
+    .announcement__pic {
+        position: relative;
+        width: 89.33vw;
+        height: 56.80vw;
+
+        margin: 6.40vw 0;
+    }
+}

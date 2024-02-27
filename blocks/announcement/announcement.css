@@ -1,0 +1,15 @@
+.announcement {
+position: relative;
+    justify-content: space-between;
+
+    margin: 5.86vw 5.27vw 2.64vw 5.27vw ;
+    padding-right: 32.14vw;
+    height: 18.30vw;
+
+}
+@media screen and (max-width: 375px) {
+    .announcement {
+        padding-right: 0;
+        height: 100%;
+    }
+}

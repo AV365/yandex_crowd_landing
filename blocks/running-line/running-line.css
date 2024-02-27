@@ -1,0 +1,22 @@
+.running-line {
+    display: flex;
+    align-items: center;
+
+    width: 400vw;
+    height: 4.39vw;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    color: white;
+    font-size: 1.61vw;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) {
+    .running-line {
+
+        width: 1000vw;
+        height: 10.13vw;
+        font-size: 4.27vw;
+    }
+

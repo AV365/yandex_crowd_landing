@@ -1,0 +1,22 @@
+.card__text {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 1.46vw;
+    line-height: 120%;
+
+    color: #151515;
+    opacity: 0.6;
+
+    text-align: center;
+    margin: 0.44vw 0 1.46vw 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .card__text {
+
+        font-size: 5.33vw;
+        margin: 0 0 5.33vw 0;
+
+    }
+}

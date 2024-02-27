@@ -1,0 +1,13 @@
+.hero__buttons {
+    width: 39.68vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 375px) {
+    .hero__buttons {
+        width: 100%;
+        flex-direction: column;
+    }
+}

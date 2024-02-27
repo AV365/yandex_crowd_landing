@@ -1,0 +1,10 @@
+.stages__items-wrapper {
+    width: 800vw;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10.67vw;
+    margin-top:30.13vw;
+
+    transition: 1s linear;
+}

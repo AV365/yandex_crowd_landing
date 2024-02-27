@@ -1,0 +1,10 @@
+.members__nav {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 375px) {
+    .members__nav {
+        margin-top: 10.67vw;
+    }
+}

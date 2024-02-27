@@ -1,0 +1,20 @@
+.members__title {
+
+    font-family: "Merriweather", serif;
+    font-size: 3.95vw;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--color-content-text);
+    font-weight: 400;
+
+    padding: 0;
+    margin: 0 0 4.39vw 0;
+}
+
+@media screen and (max-width: 375px) {
+    .members__title {
+
+        font-size: 9.60vw;
+        margin: 0 0 10.67vw 0;
+    }
+}

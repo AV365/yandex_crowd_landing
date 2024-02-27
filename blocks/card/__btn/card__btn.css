@@ -1,0 +1,40 @@
+.card__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8.27vw;
+    height: 2.56vw;
+
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 1.17vw;
+    line-height: 120%;
+
+    color: #3057A2;
+
+    border: 0.07vw #3057A2 solid;
+    border-radius: 4.54vw;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.card__btn:hover {
+    background-color: #3057A2;
+    color: white;
+
+}
+
+@media screen and (max-width: 375px) {
+    .card__btn {
+
+        font-size: 4.27vw;
+        border-radius: 16.53vw;
+
+        width: 30.13vw;
+        height: 9.33vw;
+        border: 0.27vw #3057A2 solid;
+
+        /*margin: 7.47vw 0 2.13vw 0;*/
+    }
+}

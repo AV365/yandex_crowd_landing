@@ -1,0 +1,12 @@
+.card__pic {
+
+    width: 23.43vw;
+    height: 23.43vw;
+}
+
+@media screen and (max-width: 375px) {
+    .card__pic  {
+        width: 65.07vw;
+        height: 65.07vw;
+    }
+}

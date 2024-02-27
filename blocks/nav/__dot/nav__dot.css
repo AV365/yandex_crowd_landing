@@ -1,0 +1,30 @@
+.nav__dot {
+
+}
+
+
+.nav__dot *:link {
+text-decoration: none;
+    color: var(--color-content-text);
+}
+
+.nav__dot *:visited {
+     text-decoration: none;
+    color: var(--color-content-text);
+ }
+
+.nav__dot *:active {
+    text-decoration: none;
+}
+
+.nav__dot *:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 375px) {
+    .nav__dot {
+        font-size: 10vw;
+        padding: 0 4.27vw;
+    }
+}

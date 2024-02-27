@@ -1,0 +1,15 @@
+.event__note {
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.46vw;
+    line-height: 120%;
+    color: #3057A2;
+
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .event__note {
+        font-size: 4.80vw;
+    }
+}

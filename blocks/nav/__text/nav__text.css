@@ -1,0 +1,16 @@
+.nav__text {
+font-family: "Golos Text", sans-serif;
+    font-size: 1.17vw;
+    line-height: 120%;
+    color: var(--color-content-text);
+
+    padding: 0 1.02vw;
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .nav__text {
+        font-size: 4.27vw;
+        padding: 0 3.73vw;
+    }
+}

@@ -1,0 +1,26 @@
+.event__table {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.46vw;
+    line-height: 120%;
+
+    border-collapse: collapse;
+
+    margin: 4.39vw 0 3.51vw 0;
+
+}
+
+@media screen and (max-width: 375px) {
+    .event__table {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 5.33vw;
+        margin: 10.67vw 0 10.67vw 0;
+    }
+}
+
+

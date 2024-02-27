@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    margin: 0;
+    padding: 2.93vw 5.27vw 5.27vw 5.27vw;
+
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.17vw;
+    line-height: 120%;
+    opacity: 0.6;
+
+    background-color: #E9DED4;
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        font-size: 4.27vw;
+        padding: 10.67vw 5.33vw 16vw 5.33vw;
+    }
+
+    }

@@ -1,0 +1,33 @@
+.nav__btn {
+    display: block;
+
+    width: 3.22vw;
+    height: 3.22vw;
+
+    border-radius: 50%;
+
+    background-color: var(--color-content-text);
+    background-image: url("../../../images/arrow-btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.66vw 1.24vw;
+
+    border: 0;
+
+    transition: 0.3s;
+}
+
+
+.nav__btn:hover {
+    background-color: #FBCE51;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .nav__btn  {
+        background-size: 1.87vw 3.73vw;
+        width: 9.60vw;
+        height: 9.60vw;
+    }
+}

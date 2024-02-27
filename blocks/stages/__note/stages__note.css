@@ -1,0 +1,21 @@
+.stages__note {
+    display: inline-block;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.46vw;
+    line-height: 120%;
+    width: 20.50vw;
+
+    color: #3057A2;
+
+    margin: 0 0 0 1.61vw;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 375px) {
+    .stages__note {
+        width: 100%;
+        font-size: 4.80vw;
+        margin: 3.20vw 0 0 0;
+    }
+}

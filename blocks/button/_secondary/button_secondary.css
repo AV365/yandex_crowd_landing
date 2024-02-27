@@ -1,0 +1,10 @@
+.button_secondary {
+        color: #1f1f1f;
+    border: 0.15vw #1f1f1f solid ;
+}
+
+.button_secondary:hover {
+    color: white;
+    border: 0;
+    background-color: #1f1f1f;
+}

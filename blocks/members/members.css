@@ -1,0 +1,10 @@
+.members {
+    position: relative;
+    padding: 0;
+    margin: 14.64vw 5.27vw 10.25vw 5.27vw ;
+}
+
+@media screen and (max-width: 375px) {
+    .members {
+        margin-bottom: 26.67vw;
+}

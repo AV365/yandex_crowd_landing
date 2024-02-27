@@ -1,0 +1,7 @@
+.running-line__wrapper {
+    overflow: hidden;
+    background-color: var(--color-content-additional);
+
+    padding: 0;
+    margin: 0;
+}

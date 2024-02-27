@@ -1,0 +1,21 @@
+.stages__title {
+    display: inline;
+    font-family: "Merriweather", serif;
+    font-size: 3.95vw;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--color-content-text);
+    font-weight: 400;
+
+    width: 59.00vw;
+
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .stages__title {
+        display: block;
+        font-size: 9.60vw;
+    }
+}

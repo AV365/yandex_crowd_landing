@@ -1,0 +1,7 @@
+.cards {
+    display: flex;
+    gap: 0.2vw;
+
+    width: 600vw;
+    transition: 1s linear;
+}

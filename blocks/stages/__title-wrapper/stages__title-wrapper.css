@@ -1,0 +1,11 @@
+.stages__title-wrapper {
+
+    width: 59.00vw;
+    margin: 0 0 3.95vw 0;
+}
+@media screen and (max-width: 375px) {
+    .stages__title-wrapper {
+        width: 100%;
+
+    }
+}

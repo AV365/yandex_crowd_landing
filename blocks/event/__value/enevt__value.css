@@ -1,0 +1,19 @@
+.event__value {
+    width: 55%;
+    font-weight: 600;
+    padding: 1.17vw 0 1.17vw 1.17vw;
+    border-bottom: 0.15vw solid #D0D0D0;
+}
+
+.event__value:nth-child(10) {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 375px) {
+    .event__value {
+        padding: 0 0  4.27vw 0;
+        width: 100%;
+        border-bottom: 0.15vw solid #D0D0D0;
+
+    }
+}

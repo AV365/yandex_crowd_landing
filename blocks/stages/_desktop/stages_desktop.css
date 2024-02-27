@@ -1,0 +1,11 @@
+.stages_desktop {
+    visibility: visible;
+    display: grid;
+}
+
+@media screen and (max-width: 375px) {
+    .stages_desktop {
+        visibility: hidden;
+        display: none;
+    }
+}

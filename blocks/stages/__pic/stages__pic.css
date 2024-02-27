@@ -1,0 +1,20 @@
+.stages__pic {
+    position: absolute;
+    right:-4vw;
+    bottom:1.4vw;
+
+    width: 26.50vw;
+    height: 14.64vw;
+
+}
+
+@media screen and (max-width: 375px) {
+    .stages__pic  {
+        top:0;
+
+        right: 0;
+        width: 89.33vw;
+        height: 48.53vw;
+        z-index: 999;
+    }
+}

@@ -1,0 +1,17 @@
+.running-line_r2l {
+    animation-name: marqueeLine_r2l;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes marqueeLine_r2l {
+    from {
+        transform: translateX(0vw);
+    }
+
+    to {
+        transform: translateX(-148vw);
+    }
+}

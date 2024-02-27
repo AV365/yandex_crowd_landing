@@ -1,0 +1,80 @@
+@import url("../vendor/normalize.css");
+
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/hero/hero.css");
+@import url("../blocks/hero/__title/hero__title.css");
+@import url("../blocks/hero/__text/hero__text.css");
+@import url("../blocks/hero/__title/_line3/hero__title_line3.css");
+@import url("../blocks/hero/__title/_line4/hero__title_line4.css");
+
+@import url("../blocks/hero/__buttons/hero__buttons.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_primary/button_primary.css");
+@import url("../blocks/button/_secondary/button_secondary.css");
+
+@import url("../blocks/running-line/running-line.css");
+@import url("../blocks/running-line/__wrapper/running-line__wrapper.css");
+@import url("../blocks/running-line/_l2r/running-line_l2r.css");
+@import url("../blocks/running-line/_r2l/running-line_r2l.css");
+
+@import url("../blocks/announcement/announcement.css");
+@import url("../blocks/announcement/__title/announcement__title.css");
+@import url("../blocks/announcement/__pic/announcement__pic.css");
+@import url("../blocks/announcement/__title/_accent/announcement__title_accent.css");
+
+@import url("../blocks/event/event.css");
+@import url("../blocks/event/__title/event__title.css");
+@import url("../blocks/event/__title/_accent/event__title_accent.css");
+@import url("../blocks/event/__pic/event__pic.css");
+@import url("../blocks/event/__info/event__info.css");
+@import url("../blocks/event/__table/event__table.css");
+@import url("../blocks/event/__table/event__table.css");
+@import url("../blocks/event/__table-sale/event__table-sale.css");
+@import url("../blocks/event/__param/event__param.css");
+@import url("../blocks/event/__value/enevt__value.css");
+@import url("../blocks/event/__note/event__note.css");
+
+@import url("../blocks/stages/stages.css");
+@import url("../blocks/stages/__title-wrapper/stages__title-wrapper.css");
+@import url("../blocks/stages/__title/stages__title.css");
+@import url("../blocks/stages/__pic/stages__pic.css");
+@import url("../blocks/stages/__item/stages__item.css");
+@import url("../blocks/stages/__items/stages__items.css");
+@import url("../blocks/stages/__note/stages__note.css");
+@import url("../blocks/stages/__num/stages__num.css");
+@import url("../blocks/stages/_desktop/stages_desktop.css");
+@import url("../blocks/stages/_mobile/stages_mobile.css");
+@import url("../blocks/stages/__items-wrapper/stages__items-wrapper.css");
+@import url("../blocks/stages/__card/stages__card.css");
+@import url("../blocks/stages/__nav/stages__nav.css");
+
+
+@import url("../blocks/members/members.css");
+@import url("../blocks/members/__title-wrapper/members__title-wrapper.css");
+@import url("../blocks/members/__title/members__title.css");
+@import url("../blocks/members/__nav/members__nav.css");
+
+@import url("../blocks/nav/__btn/_right/nav__btn_right.css");
+@import url("../blocks/nav/__btn/_disabled/nav__btn_disabled.css");
+
+
+@import url("../blocks/nav/nav.css");
+@import url("../blocks/nav/__btn/nav__btn.css");
+@import url("../blocks/nav/__text/nav__text.css");
+@import url("../blocks/nav/__text_accent/nav__text_accent.css");
+@import url("../blocks/nav/__dot/nav__dot.css");
+
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/cards/__wrapper/cards__wrapper.css");
+
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/__btn/card__btn.css");
+@import url("../blocks/card/__text/card__text.css");
+@import url("../blocks/card/__title/card__title.css");
+@import url("../blocks/card/__pic/card__pic.css");
+
+@import url("../blocks/footer/footer.css");
+
+@import url("../blocks/logo/logo.css");
+

@@ -1,0 +1,25 @@
+
+.hero {
+    padding-left: 5.27vw;
+    padding-top: 1.90vw;
+    width: 100%;
+    min-height: 51.24vw;
+    background: url("../../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    resize: both;
+}
+@media screen and (max-width: 375px) {
+    .hero {
+
+        min-height: 206vw;
+
+        padding-left: 5.33vw;
+        padding-top: 4.80vw;
+        padding-right: 5.33vw;
+
+        background: url("../../images/hero-bg-m.png");
+        resize: both;
+
+    }
+}

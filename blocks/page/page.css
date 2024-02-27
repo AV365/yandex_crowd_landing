@@ -1,0 +1,29 @@
+.page {
+    padding: 0;
+    margin: auto;
+
+    font-family: 'Golos Text', 'Helvetica Neue', 'Arial', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+
+    --color-content-text: #313131;
+    --color-content-bg: #000;
+    --color-content-additional: #F54932;
+--desktop-width: 1366;
+
+
+
+
+
+}
+
+* {
+    /*border: 1px yellow solid;*/
+    box-sizing: border-box;
+}

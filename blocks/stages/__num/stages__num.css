@@ -1,0 +1,33 @@
+.stages__num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 2.64vw;
+    width: 2.64vw;
+    height: 2.64vw;
+
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.46vw;
+    line-height: 120%;
+    font-weight: 600;
+    color: var(--color-content-text);
+
+    background-color: white;
+
+    border-radius: 50%;
+
+    margin: 0 1.17vw 0 0;
+    padding: 0;
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .stages__num  {
+        font-size: 5.33vw;
+        width: 9.60vw;
+        height: 9.60vw;
+        min-width: 9.60vw;
+        margin: 0 4.27vw 0 0;
+    }
+}

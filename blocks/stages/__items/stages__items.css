@@ -1,0 +1,24 @@
+.stages__items {
+    list-style: none;
+
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.46vw;
+
+    padding: 0;
+    margin: 0;
+
+    grid-template-areas: "a b c" "d e c" "f g g";
+}
+
+@media screen and (max-width: 375px) {
+    .stages__items {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+
+    }
+}
